@@ -3,5 +3,5 @@
   "fhirVersion": "R4",
   "informationStandard": "PZP 1.0.0-rc2",
   "usecase": "PZP",
-  "serverAlias": "nictiz"
+  "serverAlias": "pzp"
 }
