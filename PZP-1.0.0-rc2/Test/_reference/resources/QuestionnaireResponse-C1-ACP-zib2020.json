@@ -57,7 +57,7 @@
     {
       "answer": [
         {
-          "valueDateTime": "1959-07-31"
+          "valueDate": "1959-07-31"
         }
       ],
       "linkId": "967",
@@ -122,7 +122,7 @@
         }
       ],
       "linkId": "78",
-      "text": "2 Gesprek gevoerd in bijzijn van"
+      "text": "Gesprek gevoerd in bijzijn van"
     },
     {
       "item": [
@@ -154,7 +154,7 @@
         }
       ],
       "linkId": "586",
-      "text": "3. Belangrijkste overeengekomen doel van medisch beleid"
+      "text": "Belangrijkste overeengekomen doel van medisch beleid"
     },
     {
       "item": [
@@ -188,11 +188,11 @@
             }
           ],
           "linkId": "1409",
-          "text": "a) Reanimatie"
+          "text": "Reanimatie"
         }
       ],
       "linkId": "83",
-      "text": "4. Behandelgrenzen"
+      "text": "Behandelgrenzen"
     },
     {
       "item": [
@@ -206,7 +206,7 @@
             }
           ],
           "linkId": "1200",
-          "text": "a) Heeft u patient geïnformeerd over eigen verantwoordelijkheid om deze behandelafspraken met naasten te bespreken?"
+          "text": "Heeft u patient geïnformeerd over eigen verantwoordelijkheid om deze behandelafspraken met naasten te bespreken?"
         },
         {
           "answer": [
@@ -219,23 +219,26 @@
             }
           ],
           "linkId": "1201",
-          "text": "b) Patiënt gaat akkoord met het delen van deze behandelafspraken met andere betrokken hulpverleners"
+          "text": "Patiënt gaat akkoord met het delen van deze behandelafspraken met andere betrokken hulpverleners"
         }
       ],
       "linkId": "119",
-      "text": "8. Informatie delen"
+      "text": "Informatie delen"
     }
   ],
   "status": "completed",
   "authored": "${DATE, T, D, -600}",
   "subject": {
-    "reference": "Patient/ACP-Patient-Samira"
+    "reference": "Patient/ACP-Patient-Samira",
+    "display": "Patient, Samira van der Sluijs"
   },
   "author": {
-    "reference": "PractitionerRole/ACP-HealthProfessional-PractitionerRole-Wolters"
+    "reference": "PractitionerRole/ACP-HealthProfessional-PractitionerRole-Wolters",
+    "display": "Healthcare professional (role), Wolters"
   },
   "source": {
-    "reference": "Patient/ACP-Patient-Samira"
+    "reference": "Patient/ACP-Patient-Samira",
+    "display": "Patient, Samira van der Sluijs"
   },
   "questionnaire": "https://api.iknl.nl/docs/pzp/r4/Questionnaire/ACP-zib2020|1.0.0-rc2"
 }

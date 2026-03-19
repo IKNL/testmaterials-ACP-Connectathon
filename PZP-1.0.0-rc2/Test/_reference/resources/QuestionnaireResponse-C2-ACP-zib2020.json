@@ -57,7 +57,7 @@
     {
       "answer": [
         {
-          "valueDateTime": "1959-07-31"
+          "valueDate": "1959-07-31"
         }
       ],
       "linkId": "967",
@@ -1020,13 +1020,16 @@
   "status": "completed",
   "authored": "${DATE, T, D, -200}",
   "subject": {
-    "reference": "Patient/ACP-Patient-Samira"
+    "reference": "Patient/ACP-Patient-Samira",
+    "display": "Patient, Samira van der Sluijs"
   },
   "author": {
-    "reference": "PractitionerRole/ACP-HealthProfessional-PractitionerRole-Wolters"
+    "reference": "PractitionerRole/ACP-HealthProfessional-PractitionerRole-Wolters",
+    "display": "Healthcare professional (role), Wolters"
   },
   "source": {
-    "reference": "Patient/ACP-Patient-Samira"
+    "reference": "Patient/ACP-Patient-Samira",
+    "display": "Patient, Samira van der Sluijs"
   },
   "questionnaire": "https://api.iknl.nl/docs/pzp/r4/Questionnaire/ACP-zib2020|1.0.0-rc2"
 }
