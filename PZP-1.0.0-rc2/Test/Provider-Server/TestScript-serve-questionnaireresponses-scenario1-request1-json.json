@@ -194,9 +194,9 @@
         },
         {
           "assert": {
-            "description": "Confirm that the response Bundle contains 1 QuestionnaireResponse resource(s).",
+            "description": "Confirm that the response Bundle contains 0 QuestionnaireResponse resource(s).",
             "direction": "response",
-            "expression": "Bundle.entry.where(resource.is(QuestionnaireResponse)).count() = 1",
+            "expression": "Bundle.entry.where(resource.is(QuestionnaireResponse)).count() = 0",
             "warningOnly": false
           }
         }

@@ -237,5 +237,5 @@
   "source": {
     "reference": "Patient/ACP-Patient-Samira"
   },
-  "questionnaire": "https://fhir.iknl.nl/fhir/Questionnaire/ACP-zib2020|1.0.0-rc2"
+  "questionnaire": "https://api.iknl.nl/docs/pzp/r4/Questionnaire/ACP-zib2020|1.0.0-rc2"
 }
