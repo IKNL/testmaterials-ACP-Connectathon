@@ -3,7 +3,7 @@
   "id": "D1-ACP-Procedure",
   "meta": {
     "profile": [
-      "https://api.iknl.nl/docs/pzp/r4/StructureDefinition/ACP-Procedure"
+      "http://nictiz.nl/fhir/StructureDefinition/nl-core-Procedure-event"
     ]
   },
   "identifier": [
@@ -41,15 +41,6 @@
     "start": "${DATE, T, D, -450}",
     "end": "${DATE, T, D, -450}"
   },
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "code": "713603004",
-        "display": "Advance care planning (procedure)"
-      }
-    ]
-  },
   "status": "completed",
   "encounter": {
     "reference": "Encounter/D1-ACP-Encounter",
@@ -58,5 +49,14 @@
   "subject": {
     "reference": "Patient/ACP-Patient-Samira",
     "display": "Patient, Samira van der Sluijs"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "713603004",
+        "system": "http://snomed.info/sct",
+        "display": "Advance care planning (procedure)"
+      }
+    ]
   }
 }
