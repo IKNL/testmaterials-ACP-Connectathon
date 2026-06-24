@@ -36,7 +36,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "395091006"
+        "code": "395091006",
+        "display": "gewenste plek van overlijden"
       }
     ]
   },

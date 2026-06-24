@@ -30,6 +30,12 @@
       "value": "a26a416e-4086-4098-a254-bdf75fb3be72"
     }
   ],
+  "reasonReference": [
+    {
+      "reference": "Condition/D1-ACP-Condition",
+      "display": "Condition, Hartritmestoornis"
+    }
+  ],
   "bodySite": {
     "extension": [
       {
@@ -54,7 +60,7 @@
     ]
   },
   "timingPeriod": {
-    "start": "${DATE, T, D, -350}"
+    "start": "${DATE, T, D, -490}"
   },
   "status": "active",
   "subject": {

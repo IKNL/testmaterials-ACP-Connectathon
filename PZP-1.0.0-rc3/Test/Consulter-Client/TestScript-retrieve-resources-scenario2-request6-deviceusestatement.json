@@ -62,7 +62,7 @@
             "encodeRequestUrl": true,
             "origin": 1,
             "destination": 1,
-            "params": "?patient=Patient/ACP-Patient-Samira&device.type=http://snomed.info/sct|72506001,465460004,468542000,704707009,1263462004,1236894001&_include=DeviceUseStatement:device"
+            "params": "?patient=Patient/ACP-Patient-Samira&device.type=http://snomed.info/sct|72506001,http://snomed.info/sct|465460004,http://snomed.info/sct|468542000,http://snomed.info/sct|704707009,http://snomed.info/sct|1263462004,http://snomed.info/sct|1236894001&_include=DeviceUseStatement:device"
           }
         },
         {
@@ -80,7 +80,7 @@
     }
   ],
   "status": "active",
-  "version": "1.0.0-rc2",
+  "version": "1.0.0-rc3",
   "date": "2025-12-09",
   "publisher": "IKNL",
   "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",

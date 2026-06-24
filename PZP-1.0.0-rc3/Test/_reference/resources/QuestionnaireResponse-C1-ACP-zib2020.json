@@ -7,7 +7,7 @@
     ],
     "tag": [
       {
-        "code": "lformsVersion: 38.2.0"
+        "code": "lformsVersion: 42.2.0"
       }
     ]
   },
@@ -145,7 +145,7 @@
               "valueCoding": {
                 "code": "385987000",
                 "system": "http://snomed.info/sct",
-                "display": "Curatief / actief ziektebeleid"
+                "display": "zorg bij ziekte en/of letsel"
               }
             }
           ],
@@ -199,10 +199,7 @@
         {
           "answer": [
             {
-              "valueCoding": {
-                "code": "1",
-                "display": "Ja"
-              }
+              "valueBoolean": true
             }
           ],
           "linkId": "1200",
@@ -240,5 +237,5 @@
     "reference": "Patient/ACP-Patient-Samira",
     "display": "Patient, Samira van der Sluijs"
   },
-  "questionnaire": "https://api.iknl.nl/docs/pzp/r4/Questionnaire/ACP-zib2020|1.0.0-rc2"
+  "questionnaire": "https://api.iknl.nl/docs/pzp/r4/Questionnaire/ACP-zib2020|1.0.0-rc3"
 }
