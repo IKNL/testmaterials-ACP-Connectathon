@@ -430,23 +430,23 @@
           "text": "Patiënt"
         },
         {
-          "linkId": "1652",
-          "text": "Contactperso(o)n(en)",
           "item": [
             {
-              "linkId": "998",
-              "text": "Relatie tot patiënt",
               "answer": [
                 {
                   "valueCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
                     "code": "SIS",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
                     "display": "Zuster"
                   }
-               }
-              ]
+                }
+              ],
+              "linkId": "998",
+              "text": "Relatie tot patiënt"
             }
-          ]
+          ],
+          "linkId": "1652",
+          "text": "Contactperso(o)n(en)"
         }
       ],
       "linkId": "78",
@@ -803,8 +803,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "system": "http://snomed.info/sct",
                     "code": "370819000",
+                    "system": "http://snomed.info/sct",
                     "display": "Vaststellen van persoonlijke waarden en wensen met betrekking tot zorg"
                   }
                 }
@@ -923,8 +923,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "system": "http://snomed.info/sct",
                     "code": "1156040003",
+                    "system": "http://snomed.info/sct",
                     "display": "Self reported (qualifier value)"
                   }
                 }

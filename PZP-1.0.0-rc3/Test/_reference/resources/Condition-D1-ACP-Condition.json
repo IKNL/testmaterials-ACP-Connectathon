@@ -30,7 +30,6 @@
       }
     ]
   },
-  "onsetDateTime": "${DATE, T, D, -490}",
   "subject": {
     "reference": "Patient/ACP-Patient-Samira",
     "display": "Patient, Samira van der Sluijs"

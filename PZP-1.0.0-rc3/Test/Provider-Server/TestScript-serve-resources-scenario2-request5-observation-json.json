@@ -74,7 +74,7 @@
             "encodeRequestUrl": true,
             "origin": 1,
             "destination": 1,
-            "params": "?patient=Patient/${patient-id-samira}&code=http://snomed.info/sct|153851000146100,395091006,340171000146104,247751003,570801000146104",
+            "params": "?patient=Patient/${patient-id-samira}&code=http://snomed.info/sct|153851000146100,http://snomed.info/sct|395091006,http://snomed.info/sct|340171000146104,http://snomed.info/sct|247751003,http://snomed.info/sct|570801000146104",
             "accept": "json"
           }
         },
@@ -207,7 +207,7 @@
     }
   ],
   "status": "active",
-  "version": "1.0.0-rc2",
+  "version": "1.0.0-rc3",
   "date": "2025-12-09",
   "publisher": "IKNL",
   "copyright": "Copyright and related rights waived via CC0, https://creativecommons.org/publicdomain/zero/1.0/. This does not apply to information from third parties, for example a medical terminology system. The implementer alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize third party IP in connection with the specification or otherwise.",
