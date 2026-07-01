@@ -62,7 +62,7 @@
             "encodeRequestUrl": true,
             "origin": 1,
             "destination": 1,
-            "params": "?patient=Patient/ACP-Patient-Samira&questionnaire=https://api.iknl.nl/docs/pzp/r4/Questionnaire/ACP-zib2020"
+            "params": "?subject=Patient/ACP-Patient-Samira&questionnaire=https://api.iknl.nl/docs/pzp/r4/Questionnaire/ACP-zib2020"
           }
         },
         {
