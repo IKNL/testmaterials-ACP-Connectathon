@@ -62,7 +62,7 @@
             "encodeRequestUrl": true,
             "origin": 1,
             "destination": 1,
-            "params": "?identifier=http://fhir.nl/fhir/NamingSystem/bsn|999998298"
+            "params": "?identifier=http://fhir.nl/fhir/NamingSystem/bsn|999998304"
           }
         },
         {
