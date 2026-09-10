@@ -1,7 +1,7 @@
 
   { "goal" : "Test",
     "fhirVersion" : "R4",
-    "informationStandard" : "PZP 1.0.0",
+    "informationStandard" : "PZP R4 1.x",
     "usecase" : "PZP",
     "role" : 
     { "name" : "Consulter-Client",
@@ -13,4 +13,4 @@
       
       { "name" : "nictiz.fhir.nl.r4.nl-core",
         "version" : "0.12.0-beta.4" } ],
-    "serverAlias" : "pzp-coalitie" }
+    "serverAlias" : "nictiz" }
